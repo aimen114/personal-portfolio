@@ -1,0 +1,42 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Your Preferred Font", sans-serif;
+}
+
+/* Header Styling */
+header {
+  /* Sticky Navigation Styling */
+  /* Logo and Navigation Links Styling */
+}
+
+/* Hero Section Styling */
+#hero {
+  /* Split-Screen Design Styling */
+  /* Coding and Illustration Styling */
+  /* Headline and CTA Button Styling */
+}
+
+/* Skills Section Styling */
+#skills {
+  /* Interactive Skill Bars Styling */
+}
+
+/* Portfolio Section Styling */
+#portfolio {
+  /* Card-Based Layout Styling */
+  /* Project Card Styling */
+}
+
+/* Contact Section Styling */
+#contact {
+  /* Contact Information Styling */
+  /* Social Media Links Styling */
+  /* Contact Form Styling */
+}
