@@ -21,7 +21,7 @@ section .hero {
   /* Split-Screen Design Styling */
   /* Coding and Illustration Styling */
   /* Headline and CTA Button Styling */
-  background-image: url(./imgs/wonder-hero.png.jpg);
+  background-image: url("./imgs/wonder-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
