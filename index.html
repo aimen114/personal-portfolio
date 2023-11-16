@@ -31,67 +31,93 @@
   </head>
 
   <body>
-    <!-- Header Section -->
     <header>
-      <!-- Navigation Bar -->
-      <!-- Logo and Navigation Links -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
+      <div class="blur-box">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+        <div class="line"></div>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <!-- Split-Screen Design with Coding and Illustration -->
-      <!-- Headline and CTA Button -->
+    <section class="hero" id="hero">
+      <div class="hero-text-background">
+        <h1>Code Weaves, Art Speaks</h1>
+        <h2>Building Web Dreams, Sketching Cyber Realms</h2>
+      </div>
+      <button><i class="fa-solid fa-wand-sparkles"></i> About me</button>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-      <!-- Interactive Skill Bars for HTML, CSS, JavaScript, React, Digital Illustration, and Photo & Video Editing -->
+    <section id="skills" class="skills d-flex justify-content-around">
+      <div class="card" style="width: 18rem">
+        <img src="./imgs/wonder-hero.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Essential Potential</h5>
+          <p class="card-text">
+            Proficient in HTML, CSS, and JavaScript basics, crafting web magic
+            with finesse, precision, and ease.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./imgs/wonder-hero.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Fine Line</h5>
+          <p class="card-text">
+            Rocking React, Bootstrap, APIs, and design that's swell, making
+            websites responsive, that's my magic spell!
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="./imgs/wonder-hero.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Bright Light</h5>
+          <p class="card-text">
+            From embedding to drawing, editing images fine, I make websites pop,
+            a design that’s all mine!
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-      <!-- Card-Based Layout for Projects -->
-      <!-- Project Cards with Images, Titles, Descriptions, and "View Project" Buttons -->
-    </section>
+    <section id="portfolio"></section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <!-- Contact Information -->
-      <!-- Social Media Links -->
-      <!-- Contact Form -->
-    </section>
+    <section id="contact"></section>
 
     <script src="js/script.js"></script>
   </body>
