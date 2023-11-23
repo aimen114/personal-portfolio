@@ -55,6 +55,8 @@ body {
     rgba(88, 66, 124, 0.5) 50.32%,
     rgba(88, 66, 124, 0) 100%
   );
+  box-shadow: 0px 0px 18px 1px rgba(137, 207, 240, 0.7);
+  margin-bottom: 18px;
 }
 #hero {
   background: linear-gradient(
@@ -145,6 +147,7 @@ h2 {
     rgba(255, 218, 185, 0.5) 50.32%,
     rgba(255, 218, 185, 0) 100%
   );
+  box-shadow: 0px 0px 18px 1px rgba(137, 207, 240, 0.7);
 }
 .btn-primary {
   background: linear-gradient(
@@ -173,8 +176,10 @@ h2 {
 @media (max-width: 800px) {
   #hero {
     padding: 35% 7%;
-
     grid-template-columns: 1fr;
     grid-gap: 25px;
+  }
+  #skills {
+    grid-template-columns: 1fr;
   }
 }
