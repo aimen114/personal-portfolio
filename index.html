@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -86,49 +92,75 @@
       </div>
     </section>
 
-    <section id="skills" class="skills d-flex justify-content-around">
-      <div class="card" style="width: 18rem">
-        <img src="./imgs/wonder-hero.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Essential Potential</h5>
-          <div class="card-line"></div>
-          <p class="card-text">
-            Proficient in HTML, CSS, and JavaScript basics, crafting web magic
-            with finesse, precision, and ease.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <section id="skills">
+      <div class="skills-grid">
+        <div class="card">
+          <img src="./imgs/html.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Essential Potential</h5>
+            <div class="card-line"></div>
+            <p class="card-text">
+              Proficient in HTML, CSS, and JavaScript basics, crafting web magic
+              with finesse, precision, and ease.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./imgs/wonder-hero.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Fine Line</h5>
-          <div class="card-line"></div>
-          <p class="card-text">
-            Rocking React, Bootstrap, APIs, and design that's swell, making
-            websites responsive, that's my magic spell!
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="./imgs/react.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Fine Line</h5>
+            <div class="card-line"></div>
+            <p class="card-text">
+              Rocking React, Bootstrap, APIs, and design that's swell, making
+              websites responsive, that's my magic spell!
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./imgs/wonder-hero.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Bright Light</h5>
-          <div class="card-line"></div>
-          <p class="card-text">
-            From embedding to drawing, editing images fine, I make websites pop,
-            a design that’s all mine!
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="./imgs/embed.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bright Light</h5>
+            <div class="card-line"></div>
+            <p class="card-text">
+              From embedding to drawing, editing images fine, I make websites
+              pop, a design that’s all mine!
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="portfolio"></section>
+    <section id="portfolio">
+      <div class="project-card">
+        <div class="img-part img-grad-hidden">
+          <h5 class="project-title move-down">
+            Weather App
+            <i class="fa-solid fa-chevron-down fa-fade" id="p-card-btn"></i>
+          </h5>
+          <div class="hide contentToHide">
+            <p class="project-desc">
+              A weather app inspired by a pinterest image. designed and created
+              by me using React.js
+            </p>
+            <button>View Project</button>
+          </div>
+        </div>
+        <div class="side-strip">
+          <div class="icons">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-html5"></i></a>
+            <a href=""><i class="fa-brands fa-css3-alt"></i></a>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
 
     <section id="contact"></section>
 
-    <script src="js/script.js"></script>
+    <script src="./src/index.js"></script>
   </body>
 </html>
