@@ -64,14 +64,14 @@ body {
     rgb(88, 66, 124) 0%,
     rgb(255, 218, 185) 100%
   );
-
   margin-top: -180px;
   padding: 15% 7%;
-  padding-bottom: 200px;
+}
+.hero-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 200px;
 }
-
 #hero h1,
 h2 {
   background: linear-gradient(135deg, #58427c 10vw, #89cff0 70vw);
@@ -121,7 +121,21 @@ h2 {
   margin: 0 auto;
   padding: 0 7%;
 }
-
+.skills-heading {
+  text-align: center;
+  color: #ffdab9;
+}
+.s-line {
+  transform: translateY(50px);
+  height: 2px;
+  margin: 1% 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 218, 185, 0) 0%,
+    rgba(255, 218, 185, 0.5) 50.32%,
+    rgba(255, 218, 185, 0) 100%
+  );
+}
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -187,6 +201,20 @@ h2 {
   );
   padding: 0 7%;
   padding-bottom: 60px;
+}
+.projects-heading {
+  text-align: center;
+  color: #ffdab9;
+}
+.p-line {
+  height: 2px;
+  margin: 1% 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 218, 185, 0) 0%,
+    rgba(255, 218, 185, 0.5) 50.32%,
+    rgba(255, 218, 185, 0) 100%
+  );
 }
 .project-card {
   overflow: hidden;
@@ -277,12 +305,96 @@ h2 {
   height: 600px;
   border-radius: 8px;
 }
+#instagram {
+  background: linear-gradient(
+    0deg,
+    rgb(88, 66, 124) 0%,
+    rgb(137, 207, 240) 100%
+  );
+  padding: 0 7%;
+  padding-bottom: 40px;
+  margin: auto;
+}
+.instagram-heading {
+  text-align: center;
+  color: #ffdab9;
+}
+.i-line {
+  height: 2px;
+  margin: 1% 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 218, 185, 0) 0%,
+    rgba(255, 218, 185, 0.5) 50.32%,
+    rgba(255, 218, 185, 0) 100%
+  );
+}
+.instagram-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+#contact {
+  background: linear-gradient(
+    180deg,
+    rgb(88, 66, 124) 0%,
+    rgb(255, 218, 185) 100%
+  );
+  padding: 0 7%;
+  padding-bottom: 40px;
+}
+.contact-heading {
+  text-align: center;
+  color: #ffdab9;
+}
+.c-line {
+  height: 2px;
+  margin: 1% 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 218, 185, 0) 0%,
+    rgba(255, 218, 185, 0.5) 50.32%,
+    rgba(255, 218, 185, 0) 100%
+  );
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #89cff0;
+  border-radius: 8px;
+}
+.my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: #ffdab9;
+}
+.my-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #58427c;
+  border-radius: 8px;
+  font-size: 30px;
+}
+.my-socials a {
+  color: #ffdab9;
+}
+.my-socials a:hover {
+  scale: 1.2;
+}
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #hero {
-    padding: 35% 7%;
+    padding: 45% 7%;
+  }
+  .hero-content {
     grid-template-columns: 1fr;
     grid-gap: 25px;
+    padding-bottom: 30px;
   }
   #skills {
     padding: 0 7%;
@@ -296,5 +408,14 @@ h2 {
   }
   .swiper-slide {
     width: 100%;
+  }
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  .my-socials {
+    flex-direction: row;
+  }
+  .instagram-grid {
+    grid-template-columns: 1fr;
   }
 }
