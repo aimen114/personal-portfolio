@@ -241,11 +241,11 @@ h2 {
 }
 .project-card .img-part {
   background-image: linear-gradient(
-      0deg,
-      rgb(88, 66, 124) 15%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    url("../imgs/20230515_183049.jpg");
+    0deg,
+    rgb(88, 66, 124) 15%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
   max-width: 75vmax;
   background-size: cover;
   background-position: center;
