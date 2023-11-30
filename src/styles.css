@@ -324,6 +324,9 @@ h2 {
   padding-bottom: 40px;
   margin: auto;
 }
+blockquote {
+  width: 100%;
+}
 .instagram-heading {
   text-align: center;
   color: #ffdab9;
