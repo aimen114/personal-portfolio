@@ -328,6 +328,8 @@ blockquote {
   max-width: 100% !important;
   width: 100% !important;
   min-width: auto !important;
+  margin: auto !important;
+  padding: 0 7%;
 }
 .instagram-heading {
   text-align: center;
