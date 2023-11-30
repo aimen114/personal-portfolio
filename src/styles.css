@@ -13,6 +13,11 @@ body {
   width: 40px;
   transition: ease-in-out 200ms;
 }
+.navbar .nav-link {
+  color: var(--primary-color--);
+  font-size: 20px;
+  margin-left: 20px;
+}
 .navbar .navbar-brand img:hover {
   scale: 1.2;
 }
@@ -257,11 +262,12 @@ h2 {
 
 .img-part h5 {
   color: #89cff0;
+  font-size: 35px;
 }
 .img-part p {
   color: #89cff0;
   font-family: "Lato", sans-serif;
-  font-size: smaller;
+  font-size: 20px;
   margin-bottom: 2px;
 }
 
@@ -320,7 +326,7 @@ h2 {
     rgb(88, 66, 124) 0%,
     rgb(137, 207, 240) 100%
   );
-
+  padding: 0% 7%;
   padding-bottom: 40px;
   margin: auto;
 }
@@ -405,6 +411,13 @@ blockquote {
 }
 
 @media (max-width: 900px) {
+  .navbar .nav-link {
+    margin-left: 0;
+    transition: ease-in-out 200ms;
+  }
+  .navbar .nav-link:hover {
+    background-color: #58427c40;
+  }
   .hero-content {
     display: flex;
     flex-direction: column-reverse;
@@ -433,13 +446,16 @@ blockquote {
   .swiper-slide {
     width: 100%;
   }
+  #instagram {
+    padding: 0%;
+  }
+  .instagram-grid {
+    grid-template-columns: 1fr;
+  }
   .contact-info {
     grid-template-columns: 1fr;
   }
   .my-socials {
     flex-direction: row;
-  }
-  .instagram-grid {
-    grid-template-columns: 1fr;
   }
 }
