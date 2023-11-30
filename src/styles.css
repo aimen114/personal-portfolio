@@ -66,8 +66,8 @@ body {
     rgb(88, 66, 124) 0%,
     rgb(255, 218, 185) 100%
   );
-  margin-top: -25vh;
-  padding: 30vh 7%;
+  margin-top: -30vh;
+  padding: 35vh 7%;
 }
 .hero-content {
   display: grid;
