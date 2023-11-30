@@ -320,7 +320,7 @@ h2 {
     rgb(88, 66, 124) 0%,
     rgb(137, 207, 240) 100%
   );
-  padding: 0 7%;
+
   padding-bottom: 40px;
   margin: auto;
 }
@@ -329,7 +329,6 @@ blockquote {
   width: 100% !important;
   min-width: auto !important;
   margin: auto !important;
-  padding: 0 7%;
 }
 .instagram-heading {
   text-align: center;
